@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     YYTextView *textView = [[YYTextView alloc] initWithFrame:CGRectMake(10, 100, self.view.frame.size.width-20, 120)];
-    textView.showTextCount = NO;
+//    textView.showTextCount = NO;
     [textView setTextViewBlock:^(NSString *text) {
         NSLog(@"-=%@",text);
     }];

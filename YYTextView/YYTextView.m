@@ -92,8 +92,9 @@
 
 #pragma mark - 创建字数统计lable
 -(void)creatTextCountLable{
-    _textCountLable = [[UILabel alloc]initWithFrame:CGRectMake(self.frame.size.width-150, self.frame.size.height-30, 150, 30)];
-    _textCountLable.text = @"已输入0/可输入300";
+    _textCountLable = [[UILabel alloc]initWithFrame:CGRectMake(self.frame.size.width-160, self.frame.size.height-20, 160, 20)];
+    _textCountLable.text = @"已输入288/可输入300";
+    _textCountLable.textAlignment = NSTextAlignmentRight;
     _textCountLable.font = [UIFont systemFontOfSize:15];
     _textCountLable.textColor = [UIColor lightGrayColor];
     [self addSubview:_textCountLable];
