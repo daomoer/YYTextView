@@ -16,6 +16,14 @@
 		CF45B5E720A959F4004D36B9 /* YYTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45B5E620A959F4004D36B9 /* YYTextViewTests.m */; };
 		CF45B5F220A959F4004D36B9 /* YYTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45B5F120A959F4004D36B9 /* YYTextViewUITests.m */; };
 		CF45B60420A95D81004D36B9 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45B60320A95D81004D36B9 /* YYTextView.m */; };
+		CF45B60B20A99DC0004D36B9 /* YYUploadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45B60A20A99DC0004D36B9 /* YYUploadImage.m */; };
+		CF45B60D20A99E4B004D36B9 /* addWaterPring.png in Resources */ = {isa = PBXBuildFile; fileRef = CF45B60C20A99E4A004D36B9 /* addWaterPring.png */; };
+		CF45B61120A99F09004D36B9 /* SelectedImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45B60F20A99F09004D36B9 /* SelectedImageCell.m */; };
+		CF45B61220A99F09004D36B9 /* SelectedImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF45B61020A99F09004D36B9 /* SelectedImageCell.xib */; };
+		CF45B61420A99F95004D36B9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF45B61320A99F95004D36B9 /* 1.png */; };
+		CF45B61620AA6B7E004D36B9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF45B61520AA6B7E004D36B9 /* 2.png */; };
+		CF45B61820AA75FD004D36B9 /* 选择.png in Resources */ = {isa = PBXBuildFile; fileRef = CF45B61720AA75FD004D36B9 /* 选择.png */; };
+		CF45B61B20AA807E004D36B9 /* singleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45B61A20AA807E004D36B9 /* singleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,17 @@
 		CF45B5F320A959F4004D36B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF45B60220A95D81004D36B9 /* YYTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
 		CF45B60320A95D81004D36B9 /* YYTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		CF45B60920A99DC0004D36B9 /* YYUploadImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYUploadImage.h; sourceTree = "<group>"; };
+		CF45B60A20A99DC0004D36B9 /* YYUploadImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYUploadImage.m; sourceTree = "<group>"; };
+		CF45B60C20A99E4A004D36B9 /* addWaterPring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addWaterPring.png; sourceTree = "<group>"; };
+		CF45B60E20A99F09004D36B9 /* SelectedImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectedImageCell.h; sourceTree = "<group>"; };
+		CF45B60F20A99F09004D36B9 /* SelectedImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectedImageCell.m; sourceTree = "<group>"; };
+		CF45B61020A99F09004D36B9 /* SelectedImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedImageCell.xib; sourceTree = "<group>"; };
+		CF45B61320A99F95004D36B9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CF45B61520AA6B7E004D36B9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CF45B61720AA75FD004D36B9 /* 选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择.png"; sourceTree = "<group>"; };
+		CF45B61920AA807E004D36B9 /* singleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singleModel.h; sourceTree = "<group>"; };
+		CF45B61A20AA807E004D36B9 /* singleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +129,17 @@
 				CF45B5D120A959F4004D36B9 /* ViewController.m */,
 				CF45B60220A95D81004D36B9 /* YYTextView.h */,
 				CF45B60320A95D81004D36B9 /* YYTextView.m */,
+				CF45B60920A99DC0004D36B9 /* YYUploadImage.h */,
+				CF45B60A20A99DC0004D36B9 /* YYUploadImage.m */,
+				CF45B61920AA807E004D36B9 /* singleModel.h */,
+				CF45B61A20AA807E004D36B9 /* singleModel.m */,
+				CF45B60E20A99F09004D36B9 /* SelectedImageCell.h */,
+				CF45B60F20A99F09004D36B9 /* SelectedImageCell.m */,
+				CF45B61020A99F09004D36B9 /* SelectedImageCell.xib */,
+				CF45B61520AA6B7E004D36B9 /* 2.png */,
+				CF45B61320A99F95004D36B9 /* 1.png */,
+				CF45B61720AA75FD004D36B9 /* 选择.png */,
+				CF45B60C20A99E4A004D36B9 /* addWaterPring.png */,
 				CF45B5D320A959F4004D36B9 /* Main.storyboard */,
 				CF45B5D620A959F4004D36B9 /* Assets.xcassets */,
 				CF45B5D820A959F4004D36B9 /* LaunchScreen.storyboard */,
@@ -243,9 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF45B60D20A99E4B004D36B9 /* addWaterPring.png in Resources */,
 				CF45B5DA20A959F4004D36B9 /* LaunchScreen.storyboard in Resources */,
+				CF45B61620AA6B7E004D36B9 /* 2.png in Resources */,
+				CF45B61820AA75FD004D36B9 /* 选择.png in Resources */,
 				CF45B5D720A959F4004D36B9 /* Assets.xcassets in Resources */,
+				CF45B61420A99F95004D36B9 /* 1.png in Resources */,
 				CF45B5D520A959F4004D36B9 /* Main.storyboard in Resources */,
+				CF45B61220A99F09004D36B9 /* SelectedImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF45B60B20A99DC0004D36B9 /* YYUploadImage.m in Sources */,
 				CF45B5D220A959F4004D36B9 /* ViewController.m in Sources */,
 				CF45B60420A95D81004D36B9 /* YYTextView.m in Sources */,
 				CF45B5DD20A959F4004D36B9 /* main.m in Sources */,
+				CF45B61B20AA807E004D36B9 /* singleModel.m in Sources */,
+				CF45B61120A99F09004D36B9 /* SelectedImageCell.m in Sources */,
 				CF45B5CF20A959F4004D36B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

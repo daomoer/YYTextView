@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YYTextView.h"
+#import "YYUploadImage.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,10 @@
         NSLog(@"-=%@",text);
     }];
     [self.view addSubview:textView];
+    
+    
+    YYUploadImage *uploadImage = [[YYUploadImage alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 80)];
+    [self.view addSubview:uploadImage];
 }
 
 
